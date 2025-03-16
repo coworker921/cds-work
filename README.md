@@ -9,10 +9,6 @@ HTML, CSS, JavaScript, TypeScript, Tailwind CSS
 - _Tailwind CSS_ for styling
 - _Jest/React-testing-library_ for tests
 
-## Searchcountry
-
-![searchcountry](./searchcountry.png)
-
 ## Functionality
 
 App will load and display data for countries from [this public Countries GraphQL API](https://countries.trevorblades.com).
