@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { ApolloProvider } from '@apollo/client';
 import client from './graphql/client';
@@ -5,7 +6,6 @@ import CountryList from './components/CountryList';
 import CountryDetails from './components/CountryDetails';
 import SearchBar from './components/SearchBar';
 import ContinentFilter from './components/ContinentFilter';
-
 
 const App: React.FC = () => {
   const [search, setSearch] = useState<string>('');
