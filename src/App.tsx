@@ -11,7 +11,6 @@ const App: React.FC = () => {
   const [continentFilter, setContinentFilter] = useState<string>('');
   const [selectedCountry, setSelectedCountry] = useState<any>(null);
   
-  
   return (
     <ApolloProvider client={client}>
       <div className="max-w-3xl mx-auto text-center font-sans p-5">
