@@ -6,7 +6,6 @@ import CountryDetails from './components/CountryDetails';
 import SearchBar from './components/SearchBar';
 import ContinentFilter from './components/ContinentFilter';
 
-
 const App: React.FC = () => {
   const [search, setSearch] = useState<string>('');
   const [continentFilter, setContinentFilter] = useState<string>('');
